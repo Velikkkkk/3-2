@@ -8,17 +8,17 @@ public class Chickens01 {
         //Mon
         totalEggs = countEggs(eggPerChiken,chikenCount);
 
-        System.out.println("Total in Mon:"+totalEggs);
+        //System.out.println("Total in Mon:"+totalEggs);
 
         //Tuesday
         ++chikenCount;
         totalEggs += countEggs(eggPerChiken,chikenCount);
-        System.out.println("Total in Tus:"+totalEggs);
+        //System.out.println("Total in Tus:"+totalEggs);
 
         //Wdns
         chikenCount /= 2;
         totalEggs = countEggs(eggPerChiken,chikenCount);
-        System.out.println("Total in Wesd:"+totalEggs);
+        //System.out.println("Total in Wesd:"+totalEggs);
 
         System.out.println("Total:"+totalEggs);
     }
@@ -27,3 +27,4 @@ public class Chickens01 {
         return eggsPerChiken * chikenCount;
     }
 }
+
